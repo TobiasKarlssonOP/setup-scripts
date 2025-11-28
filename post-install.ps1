@@ -31,6 +31,7 @@ function Install-Software {
 
 # --- Install Software ---
 Install-Software -softwareIds @(
+    "Microsoft.PowerShell"
     "AgileBits.1Password",
     "Mozilla.Firefox",
     "Microsoft.Office.365",
